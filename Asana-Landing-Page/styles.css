@@ -1,0 +1,159 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+.container1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #285B52;
+}
+.container1 p{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 11%;
+}
+.container1 li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.container1 li a{
+    color: white;
+    margin-left: 30px;
+    margin-right: 0;
+}
+.container1 li a:hover{
+    text-decoration: none;
+}
+.container1 .diff-list .fa-times{
+    color: rgb(204, 204, 204);
+    margin-left: 100px;
+    cursor: pointer;
+}
+.container1 .diff-list .fa-times:hover{
+    color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+header {
+  background-color: #fff; /* White background */
+  color: #333; /* Text color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: fill(56);
+  margin-right: 50px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #818181; /* Text color */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+}
+
+.nav-links li a:hover {
+  color: rgb(65, 65, 65); /* Hover color */
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+.user-actions .secondary {
+  text-decoration: none;
+  margin: 10px;
+  color: #818181;
+  font-size: 14px;
+  font-weight: 600;
+}
+.user-actions .secondary:hover{
+    color: rgb(65, 65, 65); 
+}
+.user-actions .fa{
+   font-size: 22px;
+   padding-right:  20px;
+   border-right: 1px solid #818181;
+}
+.button {
+  background-color: #0d0e10; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 20px;
+}
+
+.button:hover {
+  background-color: #f06a6a; /* Button hover background color */
+}
+
+/* Dropdown menu styles */
+/* .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px); /* Position below the parent item 
+    left: 0;
+    background-color: #fff; /* Dropdown background color 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-links li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown-menu ul li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none;
+    color: #333; /* Dropdown text color
+    display: block;
+    transition: background-color 0.3s ease;
+} */
+
+/* .dropdown-menu ul li a:hover {
+    background-color: #f5f5f5; /* Dropdown hover background color 
+} */
