@@ -67,9 +67,7 @@ body {
 
 header {
   background-color: #fff;
-  /* White background */
   color: #333;
-  /* Text color */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -195,8 +193,6 @@ header {
   color: white;
 }
 
-
-
 .launch-plan-btn .launch-plan-btn2 {
   padding: 12px 25px 12px 25px;
   gap: 0px;
@@ -211,6 +207,34 @@ header {
   width: 100%;
 }
 
+.fortune {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fortune h4 {
+  padding-top: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+.fortune-img img {
+  width: Hug (198px)px;
+  height: Hug (88px)px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 24px;
+}
+/* different-department */
+.different-department{
+  width: 100%;
+  background-color: #F5F3F3;
+}
 /* @media Query */
 @media (max-width: 1024px) {
   .container1 p {
@@ -271,6 +295,14 @@ header {
   .menu-toggle.open span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  .fortune-img img {
+    width: Hug (100px)px;
+    height: Hug (80px)px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 24px;
+  }
 }
 
 @media (max-width: 968px) {
@@ -290,6 +322,18 @@ header {
 
   .container {
     max-width: 600px;
+  }
+
+  .fortune h4 {
+    font-size: 18px;
+  }
+
+  .fortune-img img {
+    width: 140px;
+    height: Hug (80px)px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 24px;
   }
 }
 
@@ -319,6 +363,38 @@ header {
   .container1 .diff-list .fa-times {
     margin-left: 20px;
     font-size: 8px;
+  }
+  .product-launch-plan {
+    background-color: #fff;
+  }
+
+  .launch-plan-text h2 {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: center;
+
+  }
+
+  .launch-plan-text p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+
+  }
+
+  .fortune h4 {
+    font-size: 16px;
+  }
+
+  .fortune-img img {
+    width: 130px;
+    height: Hug (40px)px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 24px;
   }
 }
 
@@ -355,5 +431,8 @@ header {
   .menu-toggle i {
     margin-right: 5px;
     font-size: 17px;
+  }
+  .launch-plan-btn .launch-plan-btn2{
+    display: none;
   }
 }
