@@ -8,42 +8,50 @@
 body {
   font-family: Arial, sans-serif;
 }
-.container1{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #285B52;
-}
-.container1 p{
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    font-weight: 500;
-    margin-left: 11%;
-}
-.container1 li{
-    list-style: none;
-    margin-left: 35px;
+
+.container1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #285b52;
 }
 
-.container1 li a{
-    color: white;
-    margin-left: 30px;
-    margin-right: 0;
+.container1 p {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 11%;
 }
-.container1 li a:hover{
-    text-decoration: none;
+
+.container1 li {
+  list-style: none;
+  margin-left: 35px;
 }
-.container1 .diff-list .fa-times{
-    color: rgb(204, 204, 204);
-    margin-left: 100px;
-    cursor: pointer;
+
+.container1 li a {
+  color: white;
+  margin-left: 30px;
+  margin-right: 0;
 }
-.container1 .diff-list .fa-times:hover{
-    color: white;
+
+.container1 li a:hover {
+  text-decoration: none;
 }
+
+.container1 .diff-list .fa-times {
+  color: rgb(204, 204, 204);
+  margin-left: 100px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container1 .diff-list .fa-times:hover {
+  color: white;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -51,13 +59,17 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .logo-link {
   display: flex;
   align-items: center;
 }
+
 header {
-  background-color: #fff; /* White background */
-  color: #333; /* Text color */
+  background-color: #fff;
+  /* White background */
+  color: #333;
+  /* Text color */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -76,7 +88,8 @@ header {
 }
 
 .nav-links li a {
-  color: #818181; /* Text color */
+  color: #818181;
+  /* Text color */
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -84,13 +97,15 @@ header {
 }
 
 .nav-links li a:hover {
-  color: rgb(65, 65, 65); /* Hover color */
+  color: rgb(65, 65, 65);
+  /* Hover color */
 }
 
 .user-actions {
   display: flex;
   align-items: center;
 }
+
 .user-actions .secondary {
   text-decoration: none;
   margin: 10px;
@@ -98,17 +113,22 @@ header {
   font-size: 14px;
   font-weight: 600;
 }
-.user-actions .secondary:hover{
-    color: rgb(65, 65, 65); 
+
+.user-actions .secondary:hover {
+  color: rgb(65, 65, 65);
 }
-.user-actions .fa{
-   font-size: 22px;
-   padding-right:  20px;
-   border-right: 1px solid #818181;
+
+.user-actions .fa {
+  font-size: 22px;
+  padding-right: 20px;
+  border-right: 1px solid #818181;
 }
-.button {
-  background-color: #0d0e10; /* Button background color */
-  color: #fff; /* Button text color */
+
+.user-actions .button {
+  background-color: #0d0e10;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -120,22 +140,24 @@ header {
 }
 
 .button:hover {
-  background-color: #f06a6a; /* Button hover background color */
+  background-color: #f06a6a;
+  /* Button hover background color */
 }
 
-.menu-toggle{
+.menu-toggle {
   display: none;
 }
 
-
 /* @media Query */
- @media (max-width: 1024px){
-  .container1 p{
+@media (max-width: 1024px) {
+  .container1 p {
     font-size: 14px;
   }
-  .container{
+
+  .container {
     max-width: 900px;
   }
+
   .dropdown-menu {
     position: absolute;
     top: -200%;
@@ -146,89 +168,129 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
-  .container .dropdown-menu li{
+
+  .container .dropdown-menu li {
     display: block;
     margin-bottom: 40px;
     margin-top: 25px;
     border-bottom: 1px solid rgb(163, 163, 163);
   }
-  .container .dropdown-menu li a{
+
+  .container .dropdown-menu li a {
     margin-bottom: 10px;
     margin-left: 15px;
     font-size: 15px;
     color: black;
- 
   }
+
   .menu-toggle {
     display: block;
     cursor: pointer;
     position: relative;
     z-index: 1001;
-}
+  }
 
-.menu-toggle i {
+  .menu-toggle i {
     display: block;
     background-color: #fff;
     margin-bottom: 5px;
     transition: transform 0.3s ease;
-}
+  }
 
-.menu-toggle.open span:nth-child(1) {
+  .menu-toggle.open span:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-}
+  }
 
-.menu-toggle.open span:nth-child(2) {
+  .menu-toggle.open span:nth-child(2) {
     opacity: 0;
-}
+  }
 
-.menu-toggle.open span:nth-child(3) {
+  .menu-toggle.open span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
 }
 
-}
 @media (max-width: 968px) {
-  .container1 p{
+  .container1 p {
     font-size: 11px;
     margin-left: 8px;
   }
-  .container1 li a{
+
+  .container1 li a {
     font-size: 11px;
     margin-left: 8px;
   }
-  .container1 .diff-list .fa-times{
+
+  .container1 .diff-list .fa-times {
     margin-left: 50px;
   }
-  .container{
+
+  .container {
     max-width: 600px;
   }
 }
-@media (max-width: 650px){
-  .container1 {
-    display: block;
-  }
-  .user-actions .secondary{
+
+@media (max-width: 650px) {
+  .user-actions .secondary {
     display: none;
   }
-  .container{
+
+  .container {
     max-width: 400px;
+  }
+
+  .container1 p {
+    font-size: 8px;
+    margin-left: 5px;
+    margin-top: 6px;
+  }
+
+  .container1 li {
+    margin-left: 5px;
+  }
+
+  .container1 li a {
+    font-size: 8px;
+  }
+
+  .container1 .diff-list .fa-times {
+    margin-left: 20px;
+    font-size: 8px;
   }
 }
 
-/* @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-    cursor: pointer;
-    position: relative;
-    z-index: 1001;
-}
+@media (max-width: 470px) {
+  .container1 p {
+    font-size: 7px;
+    margin-left: px;
+    margin-top: 6px;
+  }
 
-.menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin-bottom: 5px;
-    transition: transform 0.3s ease;
-}
-} */
+  .container1 li {
+    margin-left: px;
+  }
 
+  .container1 li a {
+    font-size: 6px;
+  }
+
+  .container1 .diff-list .fa-times {
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .container {
+    max-width: 300px;
+  }
+
+  .user-actions .button {
+    padding: 10px 10px;
+    font-size: 14px;
+    margin-left: 3px;
+  }
+
+  .menu-toggle i {
+    margin-right: 5px;
+    font-size: 17px;
+  }
+}
