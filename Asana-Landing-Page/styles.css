@@ -520,6 +520,36 @@ header {
     opacity: 0px;
     padding: 24px;
   }
+  .department-asana{
+    width: 90%;
+
+  }
+  .department-asana h3 {
+    padding-left: 8px;
+  }
+  .department-asana-launch{
+    display: flex;
+    flex-direction: column;
+    margin-left: -0.00px;
+  }
+  .department-asana-btn{
+    display: none;
+  }
+  .department-asana-launch img{
+    width: 100%;
+  }
+  .department-asana-launch .department-asana-text h4 {
+    font-size: 18px;
+  }
+  
+  .department-asana-launch .department-asana-text p {
+    font-size: 14px;
+  }
+  
+  .department-asana-text button {
+    padding: 7px 10px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 470px) {
