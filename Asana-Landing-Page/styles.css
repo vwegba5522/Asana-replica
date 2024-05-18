@@ -152,7 +152,7 @@ header {
 }
 
 .product-launch-plan {
-  background-color: #FFEAEC;
+  background-color: #ffeaec;
   width: 90%;
   border-radius: 10px;
   margin: 0 auto 20px;
@@ -172,7 +172,6 @@ header {
   font-weight: 400;
   line-height: 32px;
   text-align: center;
-
 }
 
 .launch-plan-btn {
@@ -200,7 +199,7 @@ header {
   border: 1px 0px 0px 0px;
   opacity: 0px;
   color: #0d0e10;
-  background-color: #FFEAEC;
+  background-color: #ffeaec;
 }
 
 .launch-plan-img img {
@@ -222,10 +221,9 @@ header {
   text-align: center;
 }
 
-
 .fortune-img img {
-  width: Hug (198px)px;
-  height: Hug (88px)px;
+  width: Hug (198px) px;
+  height: Hug (88px) px;
   gap: 0px;
   opacity: 0px;
   padding: 24px;
@@ -234,7 +232,7 @@ header {
 /* different-department */
 .different-department {
   width: 100%;
-  background-color: #F5F3F3;
+  background-color: #f5f3f3;
 }
 
 .department-asana {
@@ -265,7 +263,7 @@ header {
 }
 
 .department-asana-btn button.active {
-  background-color: #FCE0DD;
+  background-color: #fce0dd;
 }
 
 .department-asana-btn button {
@@ -361,15 +359,60 @@ header {
 }
 
 .asana-apart-launch img {
-width: 100%;
+  width: 100%;
 }
 
+/* Enterprise-grade security */
+.security{
+    width: 90%;
+    margin: 0 auto 20px;
+    padding-bottom: 6%;
+  }
+  
+  .security h1{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+  }
 
+.security-grade {
+  width: Fixed (1, 288px) px;
+  height: Hug (332px) px;
+  padding: 64px 110.68px 64px 110.66px;
+  gap: 150.65px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #243a73;
+}
 
+.security-grade-text h4 {
+  font-size: 20px;
+  color: #fff;
+}
 
-
-
-
+.security-grade-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+}
+.security-grade-text button {
+  width: Hug (189px) px;
+  height: Hug (52px) px;
+  padding: 12px 25px 12px 25px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px solid #fff;
+  opacity: 0px;
+  color: #fff;
+  background-color: #243a73;
+}
 
 /* @media Query */
 @media (max-width: 1024px) {
@@ -433,8 +476,8 @@ width: 100%;
   }
 
   .fortune-img img {
-    width: Hug (100px)px;
-    height: Hug (80px)px;
+    width: Hug (100px) px;
+    height: Hug (80px) px;
     gap: 0px;
     opacity: 0px;
     padding: 24px;
@@ -455,29 +498,31 @@ width: 100%;
   .department-asana-launch .department-asana-text p {
     font-size: 12px;
   }
+
   .asana-apart-text {
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 0;
     margin-right: -20px;
   }
+
   .asana-apart-text h4 {
     font-size: 16px;
     font-weight: 700;
   }
-  
+
   .asana-apart-text p {
     font-size: 13px;
   }
+
   .asana-apart-text button {
     padding: 10px 15px;
     font-size: 13px;
   }
+
   .asana-apart-launch img {
     width: 65%;
   }
-  
-
 }
 
 @media (max-width: 968px) {
@@ -505,7 +550,7 @@ width: 100%;
 
   .fortune-img img {
     width: 140px;
-    height: Hug (80px)px;
+    height: Hug (80px) px;
     gap: 0px;
     opacity: 0px;
     padding: 24px;
@@ -522,7 +567,6 @@ width: 100%;
   .department-asana-btn button {
     padding: 6px 12px;
     font-size: 13px;
-
   }
 
   .department-asana-launch {
@@ -541,29 +585,32 @@ width: 100%;
     padding: 7px 10px;
     font-size: 14px;
   }
+
   .asana-apart-text {
     padding: 7px;
   }
-  .asana-apart{
+
+  .asana-apart {
     width: 90%;
   }
+
   .asana-apart-text h4 {
     font-size: 13px;
     font-weight: 700;
   }
-  
+
   .asana-apart-text p {
     font-size: 12px;
   }
-  
+
   .asana-apart-text button {
     padding: 10px 15px;
     font-size: 12px;
   }
+
   .asana-apart-launch img {
     width: 65%;
   }
-  
 
   /* 
   .department-asana h3{
@@ -615,7 +662,6 @@ width: 100%;
     line-height: 56px;
     letter-spacing: -1px;
     text-align: center;
-
   }
 
   .launch-plan-text p {
@@ -623,7 +669,6 @@ width: 100%;
     font-weight: 400;
     line-height: 32px;
     text-align: center;
-
   }
 
   .fortune h4 {
@@ -632,7 +677,7 @@ width: 100%;
 
   .fortune-img img {
     width: 130px;
-    height: Hug (40px)px;
+    height: Hug (40px) px;
     gap: 0px;
     opacity: 0px;
     padding: 24px;
@@ -640,7 +685,6 @@ width: 100%;
 
   .department-asana {
     width: 90%;
-
   }
 
   .department-asana h3 {
@@ -650,7 +694,7 @@ width: 100%;
   .department-asana-launch {
     display: flex;
     flex-direction: column;
-    margin-left: -0.00px;
+    margin-left: -0px;
   }
 
   .department-asana-btn {
@@ -693,7 +737,6 @@ width: 100%;
     padding: 10px;
   }
 }
-
 
 @media (max-width: 470px) {
   .container1 p {
