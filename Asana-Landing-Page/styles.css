@@ -253,7 +253,9 @@ header {
   padding-left: 25px;
   padding-bottom: 25px;
 }
-
+.department-asana form{
+  display: none;
+}
 .department-asana .department-asana-btn {
   text-align: left;
   padding-left: 30px;
@@ -550,7 +552,24 @@ header {
     padding: 7px 10px;
     font-size: 14px;
   }
+  .department-asana form{
+    display: block;
+  }
+  .department-asana form #depart{
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 300px;
+    margin-left: 4px;
+    margin-bottom: 25px;
+  }
+  .department-asana form #depart option{
+    padding: 10px;
+  }
 }
+
 
 @media (max-width: 470px) {
   .container1 p {
@@ -589,5 +608,15 @@ header {
 
   .launch-plan-btn .launch-plan-btn2 {
     display: none;
+  }
+  .fortune-img{
+    display: flex;
+    flex-direction: column;
+  }
+  .department-asana form #depart{
+    width: 250px;
+  }
+  .department-asana form #depart option{
+    padding: 25px;
   }
 }
