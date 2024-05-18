@@ -303,6 +303,7 @@ header {
   opacity: 0px;
   background-color: #0d0e10;
   color: white;
+  cursor: pointer;
 }
 
 /* @media Query */
@@ -373,7 +374,19 @@ header {
     opacity: 0px;
     padding: 24px;
   }
+  .department-asana{
+    width: 90%;
+  }
 
+  .department-asana h3{
+    font-size: 30px;
+  }
+  .department-asana-launch img{
+    width: 65%;
+  }
+  .department-asana-launch .department-asana-text p {
+    font-size: 12px;
+  }
 
 }
 
@@ -407,6 +420,44 @@ header {
     opacity: 0px;
     padding: 24px;
   }
+  .department-asana{
+    width: 80%;
+  }
+  .department-asana h3{
+    font-size: 25px;
+  }
+  .department-asana-btn button {
+    padding: 6px 12px;
+    font-size: 13px;
+
+  }
+  .department-asana-launch {
+    gap: 22px;
+  }
+  
+.department-asana-launch .department-asana-text h4 {
+  font-size: 16px;
+}
+
+.department-asana-launch .department-asana-text p {
+  font-size: 10px;
+}
+
+.department-asana-text button {
+  padding: 7px 10px;
+  font-size: 14px;
+}
+
+/* 
+  .department-asana h3{
+    font-size: 30px;
+  }
+  .department-asana-launch img{
+    width: 65%;
+  }
+  .department-asana-launch .department-asana-text p {
+    font-size: 12px;
+  } */
 }
 
 @media (max-width: 650px) {
