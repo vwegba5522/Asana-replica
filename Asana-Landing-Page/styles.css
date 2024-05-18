@@ -318,6 +318,8 @@ header {
 .asana-apart {
   width: 90%;
   margin: 0 auto 20px;
+  padding-bottom: 6%;
+  border-bottom: 1px solid #9b9b9b;
 }
 
 .asana-apart h3 {
