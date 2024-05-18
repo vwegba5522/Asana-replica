@@ -336,7 +336,7 @@ header {
 .asana-apart-text h4 {
   font-size: 20px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 40px;
   text-align: left;
 }
 
@@ -453,6 +453,28 @@ width: 100%;
   .department-asana-launch .department-asana-text p {
     font-size: 12px;
   }
+  .asana-apart-text {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0;
+    margin-right: -20px;
+  }
+  .asana-apart-text h4 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .asana-apart-text p {
+    font-size: 13px;
+  }
+  .asana-apart-text button {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  .asana-apart-launch img {
+    width: 65%;
+  }
+  
 
 }
 
