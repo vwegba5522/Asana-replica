@@ -419,7 +419,57 @@ header {
   width: 100%;
 }
 
+/* Connect over 300 integrations */
+.Connect-integrations {
+  width: Fixed (1, 288px) px;
+  height: Hug (332px) px;
+  /* padding: 15px 20px; */
+  gap: 15px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #eaefff;
+}
 
+.integrations-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto 20px;
+  gap: 200px;
+}
+
+.integrations-texts {
+  width: 30%;
+}
+
+.integrations-texts h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.integrations-texts p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.integrations-texts button {
+  padding: 12px 25px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px solid #0d0e10;
+  opacity: 0px;
+  background-color: #eaefff;
+  font-size: 16px;
+}
+.integrations-contain img{
+  width: 40%;
+}
 
 /* @media Query */
 @media (max-width: 1024px) {
@@ -542,8 +592,24 @@ header {
   .security-grade img {
     height: 100px;
   }
-
-
+  .integrations-contain {
+    gap: 150px;
+  }
+  .integrations-texts h3 {
+    font-size: 20px;
+  }
+  
+  .integrations-texts p {
+    font-size: 14px;
+  }
+  
+  .integrations-texts button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .integrations-contain img{
+    width: 40%;
+  }
 }
 
 @media (max-width: 968px) {
@@ -632,9 +698,17 @@ header {
   .asana-apart-launch img {
     width: 65%;
   }
-
-
-
+  .integrations-contain {
+    gap: 80px;
+  }
+  .integrations-texts h3 {
+    font-size: 14px;
+  }
+  
+  .integrations-texts p {
+    font-size: 12px;
+  }
+  
   /* 
   .department-asana h3{
     font-size: 30px;
@@ -776,6 +850,27 @@ header {
 
   .security-grade-text p {
     margin-right: 10px;
+  }
+  .integrations-contain {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .integrations-texts {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .integrations-texts h3 {
+    font-size: 16px;
+  }
+  
+  .integrations-texts p {
+    font-size: 12px;
+  }
+  
+  .integrations-texts button {
+    padding: 10px 20px;
+    font-size: 12px;
   }
 }
 
