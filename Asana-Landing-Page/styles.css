@@ -467,9 +467,11 @@ header {
   background-color: #eaefff;
   font-size: 16px;
 }
-.integrations-contain img{
+
+.integrations-contain img {
   width: 40%;
 }
+
 
 /* @media Query */
 @media (max-width: 1024px) {
@@ -592,22 +594,25 @@ header {
   .security-grade img {
     height: 100px;
   }
+
   .integrations-contain {
     gap: 150px;
   }
+
   .integrations-texts h3 {
     font-size: 20px;
   }
-  
+
   .integrations-texts p {
     font-size: 14px;
   }
-  
+
   .integrations-texts button {
     padding: 10px 20px;
     font-size: 12px;
   }
-  .integrations-contain img{
+
+  .integrations-contain img {
     width: 40%;
   }
 }
@@ -698,17 +703,19 @@ header {
   .asana-apart-launch img {
     width: 65%;
   }
+
   .integrations-contain {
     gap: 80px;
   }
+
   .integrations-texts h3 {
     font-size: 14px;
   }
-  
+
   .integrations-texts p {
     font-size: 12px;
   }
-  
+
   /* 
   .department-asana h3{
     font-size: 30px;
@@ -851,23 +858,26 @@ header {
   .security-grade-text p {
     margin-right: 10px;
   }
+
   .integrations-contain {
     display: flex;
     flex-direction: column-reverse;
     gap: 50px;
   }
+
   .integrations-texts {
     width: 80%;
     margin-top: 50px;
   }
+
   .integrations-texts h3 {
     font-size: 16px;
   }
-  
+
   .integrations-texts p {
     font-size: 12px;
   }
-  
+
   .integrations-texts button {
     padding: 10px 20px;
     font-size: 12px;
