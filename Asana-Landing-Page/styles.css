@@ -478,8 +478,9 @@ header {
 }
 
 .cont h1 {
-  margin-left: 18.5%;
+  padding-left: 110px;
   padding-top: 30px;
+  margin: 0 auto 20px;
 
   font-size: 44px;
   font-weight: 400;
@@ -490,7 +491,8 @@ header {
 }
 
 .cont .para {
-  margin-left: 18.8%;
+  padding-left: 120px;
+  margin: 0 auto 20px;
   margin-top: 25px;
 
   font-size: 16px;
@@ -544,12 +546,6 @@ header {
 
 }
 
-.cont-2{
-  background-color: white;
-}
-.cont-2 h1{
-  padding-top: 60px;
-}
 /* @media Query */
 @media (max-width: 1024px) {
   .container1 p {
@@ -792,6 +788,14 @@ header {
   .integrations-texts p {
     font-size: 12px;
   }
+  .cont h1 {
+    padding-left: 80px;  
+  }
+  
+  .cont .para {
+    padding-left: 85px;
+  
+  }
 
   /* 
   .department-asana h3{
@@ -958,6 +962,16 @@ header {
   .integrations-texts button {
     padding: 10px 20px;
     font-size: 12px;
+  }
+  .cont h1 {
+    padding-left: 30px;  
+    font-size: 35px;
+    padding-right: 20px;
+  }
+  
+  .cont .para {
+    padding-left: 35px;
+  
   }
 }
 
