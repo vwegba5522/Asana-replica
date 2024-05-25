@@ -518,6 +518,7 @@ header {
   margin: 20px;
 
 }
+
 .card img {
   width: 100%;
   height: auto;
@@ -544,6 +545,63 @@ header {
   line-height: 24px;
   text-align: left;
 
+}
+
+.start-easily {
+  width: '';
+}
+
+.start-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 20px;
+}
+
+.start-container h1 {
+  width: 85%;
+  margin: 0 auto 20px;
+
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.start-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.easy-card {
+  width: Fill (408px)px;
+  height: Fill (528px)px;
+  margin: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.easy-card img {
+  width: 100%;
+  height: auto;
+}
+
+.easy-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.easy-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 20px;
 }
 
 /* @media Query */
@@ -788,13 +846,14 @@ header {
   .integrations-texts p {
     font-size: 12px;
   }
+
   .cont h1 {
-    padding-left: 80px;  
+    padding-left: 80px;
   }
-  
+
   .cont .para {
     padding-left: 85px;
-  
+
   }
 
   /* 
@@ -963,15 +1022,16 @@ header {
     padding: 10px 20px;
     font-size: 12px;
   }
+
   .cont h1 {
-    padding-left: 30px;  
+    padding-left: 30px;
     font-size: 35px;
     padding-right: 20px;
   }
-  
+
   .cont .para {
     padding-left: 35px;
-  
+
   }
 }
 
