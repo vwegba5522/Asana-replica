@@ -487,7 +487,6 @@ header {
   line-height: 56px;
   letter-spacing: -1px;
   text-align: left;
-
 }
 
 .cont .para {
@@ -499,7 +498,6 @@ header {
   font-weight: 500;
   line-height: 28px;
   text-align: left;
-
 }
 
 .card-container {
@@ -516,7 +514,6 @@ header {
   border-radius: 2px;
   overflow: hidden;
   margin: 20px;
-
 }
 
 .card img {
@@ -544,9 +541,7 @@ header {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-
 }
-
 
 .start-container {
   width: 100%;
@@ -574,8 +569,8 @@ header {
 }
 
 .easy-card {
-  width: Fill (408px)px;
-  height: Fill (528px)px;
+  width: Fill (408px) px;
+  height: Fill (528px) px;
   margin: 50px;
   background-color: white;
   border-radius: 10px;
@@ -616,7 +611,6 @@ header {
   line-height: 56px;
   letter-spacing: -1px;
   text-align: center;
-
 }
 
 .under-text button {
@@ -629,13 +623,15 @@ header {
   font-size: 18px;
   margin-top: 30px;
   opacity: 0px;
-
 }
 
 /* FOOTER */
+footer {
+  background-color: #0d0e10;
+}
 
 .fore-footer {
-  background-color: #1E1F21;
+  background-color: #1e1f21;
   align-items: center;
   margin-top: 40px;
 }
@@ -643,8 +639,8 @@ header {
 .fore-footer .fore-text {
   width: 80%;
   margin: 0 auto 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .fore-footer .fore-text p {
@@ -655,7 +651,6 @@ header {
   text-align: left;
   margin: 20px;
   text-align: justify;
-
 }
 
 .fore-footer .fore-text p a {
@@ -665,7 +660,43 @@ header {
 .fore-footer .fore-text p a:hover {
   color: #b41522;
 }
-.
+
+.main-footer {
+  background-color: #0d0e10;
+}
+
+.main-foot {
+  width: 90%;
+  margin: 0 auto 0;
+  display: flex;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.footer-links p{
+  font-size: 16px;
+  color: #A5A4A3;
+  margin-bottom: 40px;
+}
+.footer-links a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+ line-height: 24.5px;
+}
+
+.footer-links a:hover{
+  text-decoration: underline;
+}
 /* @media Query */
 @media (max-width: 1024px) {
   .container1 p {
@@ -915,23 +946,18 @@ header {
 
   .cont .para {
     padding-left: 85px;
-
   }
 
   .under-text h1 {
     font-size: 55px;
   }
-
-  /* 
-  .department-asana h3{
-    font-size: 30px;
+  .footer-links p{
+    font-size: 14px;
   }
-  .department-asana-launch img{
-    width: 65%;
+  .footer-links a {
+    font-size: 14px;
   }
-  .department-asana-launch .department-asana-text p {
-    font-size: 12px;
-  } */
+ 
 }
 
 @media (max-width: 650px) {
@@ -1097,7 +1123,6 @@ header {
 
   .cont .para {
     padding-left: 35px;
-
   }
 
   .under-text {
@@ -1109,6 +1134,15 @@ header {
   .under-text h1 {
     font-size: 40px;
     margin: 20px;
+  }
+  .main-foot{
+    width: 100%;
+  }
+  .footer-links p{
+    font-size: 12px;
+  }
+  .footer-links a {
+    font-size: 12px;
   }
 }
 
