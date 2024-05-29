@@ -1062,10 +1062,13 @@ opacity: 0px;
 
   }
   .under-text{
-    width: 90%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .under-text h1{
-    font-size: 44px;    
+    font-size: 40px;   
+    margin: 20px; 
     }
 }
 
