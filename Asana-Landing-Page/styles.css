@@ -697,6 +697,12 @@ footer {
 .footer-links a:hover{
   text-decoration: underline;
 }
+.finish-footer{
+  background-color:#2A2B2C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* @media Query */
 @media (max-width: 1024px) {
   .container1 p {
