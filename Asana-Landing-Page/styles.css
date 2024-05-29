@@ -602,33 +602,70 @@ header {
   margin-top: 20px;
 }
 
-.under-text{
+.under-text {
   width: 80%;
   align-items: center;
   text-align: center;
   margin: 0 auto 20px;
   padding: 50px;
 }
-.under-text h1{
-font-size: 60px;
-font-weight: 400;
-line-height: 56px;
-letter-spacing: -1px;
-text-align: center;
+
+.under-text h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -1px;
+  text-align: center;
 
 }
-.under-text button{
-padding: 12px 25px;
-gap: 0px;
-border-radius: 3px;
-border: 1px solid #000;
-background-color: black;
-color: #fff;
-font-size: 18px;
-margin-top: 30px;
-opacity: 0px;
+
+.under-text button {
+  padding: 12px 25px;
+  gap: 0px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  opacity: 0px;
 
 }
+
+/* FOOTER */
+
+.fore-footer {
+  background-color: #1E1F21;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.fore-footer .fore-text {
+  width: 80%;
+  margin: 0 auto 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fore-footer .fore-text p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin: 20px;
+  text-align: justify;
+
+}
+
+.fore-footer .fore-text p a {
+  color: #fff;
+}
+
+.fore-footer .fore-text p a:hover {
+  color: #b41522;
+}
+
 /* @media Query */
 @media (max-width: 1024px) {
   .container1 p {
@@ -880,9 +917,10 @@ opacity: 0px;
     padding-left: 85px;
 
   }
-  .under-text h1{
-    font-size: 55px;    
-    }
+
+  .under-text h1 {
+    font-size: 55px;
+  }
 
   /* 
   .department-asana h3{
@@ -1061,15 +1099,17 @@ opacity: 0px;
     padding-left: 35px;
 
   }
-  .under-text{
+
+  .under-text {
     width: 100%;
     margin: 0;
     padding: 0;
   }
-  .under-text h1{
-    font-size: 40px;   
-    margin: 20px; 
-    }
+
+  .under-text h1 {
+    font-size: 40px;
+    margin: 20px;
+  }
 }
 
 @media (max-width: 470px) {
